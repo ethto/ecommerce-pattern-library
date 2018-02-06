@@ -526,7 +526,7 @@
   </div>
 
     <div class="pattern-desc milli island" >
-      <div class="max-length"><p><a href="https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;accessibility;print">Modulifier</a> generates a series of simple, default CSS components that can be used throughout the site, or as basic building blocks for more complex patterns. <a href="https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/">See the documentation for all available classes.</a></p>
+      <div class="max-length"><p><a href="https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print">Modulifier</a> generates a series of simple, default CSS components that can be used throughout the site, or as basic building blocks for more complex patterns. <a href="https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/">See the documentation for all available classes.</a></p>
 </div>
     </div>
 
@@ -636,14 +636,14 @@
     <h2 class="pattern-name exa push-1-4" style="color: #5eafb5;">Buttons</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons--code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-buttons-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/buttons/buttons.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -652,9 +652,54 @@
         </ul>
   </div>
 
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The buttons use secondary and highlight colours to stand our from the rest of the site. Each button has it&#39;s own purpose:</p>
+<ul>
+<li>The standard button is for things such as &quot;read me&quot; or &quot;see more&quot;</li>
+<li>The bold buttons are used for more serious things such as &quot;I accept&quot; or &quot;Confirm Purchase&quot;</li>
+<li>The bold ghost button is used everywhere else, similar use as the standard but with the option of adding higher visibility and balance within the site.</li>
+</ul>
+</div>
+    </div>
 
   
 
+    <div class="pattern-details" id="buttons-buttons" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/buttons/buttons.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-buttons-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-buttons-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn" href="#"&gt;STANDARD BTN&lt;/a>
+&lt;a class="btn btn-bold" href="#">BOLD BTN&lt;/a>
+&lt;a class="btn btn-bold-ghost" href="#">BOLD GHOST BTN&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 
