@@ -1,24 +1,41 @@
 .btn {
   background-color: transparent;
   border-color: var(--color-secondary);
-
   color: var(--color-secondary);
 }
 
-.btn-ghost {
-
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #fff;
 }
 
 .btn-bold {
   background-color: var(--color-highlight);
   border-color: var(--color-highlight);
-
   color: #fff;
 }
 
 .btn-bold-ghost {
   background-color: transparent;
   border-color: var(--color-highlight);
-
   color: var(--color-highlight);
+}
+
+.btn-bold-ghost:hover {
+  background-color: var(--color-highlight);
+  border-color: var(--color-highlight);
+  color: #fff;
+}
+
+.btn-nav-foot {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+}
+
+.btn-nav-foot:hover {
+  background-color: transparent;
+  border-color: var(--color-secondary);
+  color: #fff;
 }
