@@ -39,3 +39,14 @@
   border-color: var(--color-secondary);
   color: #fff;
 }
+
+.btn-white {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--color-secondary);
