@@ -15,3 +15,12 @@
 .words {
   color: #fff;
 }
+
+.offer,
+.testimonial {
+  text-align: center;
+}
+
+.content-offer {
+  background-image: none;
+}

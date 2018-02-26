@@ -23,8 +23,8 @@
 }
 
 .btn-bold-ghost:hover {
-  background-color: var(--color-highlight);
-  border-color: var(--color-highlight);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
   color: #fff;
 }
 
