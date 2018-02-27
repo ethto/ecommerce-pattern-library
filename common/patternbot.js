@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1519683219692
+ * @version 1519741267002
  */
-const patternManifest_1519683219692 = {
+const patternManifest_1519741267002 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -563,7 +563,8 @@ const patternManifest_1519683219692 = {
     },
     "patterns": [
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards"
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms"
     ],
     "pages": []
   },
@@ -646,6 +647,40 @@ const patternManifest_1519683219692 = {
           "localPath": "patterns/cards/cards.css"
         }
       ]
+    },
+    {
+      "name": "forms",
+      "namePretty": "Forms",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
+      "html": [
+        {
+          "name": "email",
+          "namePretty": "Email",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/email.html",
+          "localPath": "patterns/forms/email.html"
+        },
+        {
+          "name": "numbers",
+          "namePretty": "Numbers",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/numbers.html",
+          "localPath": "patterns/forms/numbers.html"
+        },
+        {
+          "name": "text",
+          "namePretty": "Text",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/text.html",
+          "localPath": "patterns/forms/text.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "forms",
+          "namePretty": "Forms",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/forms.css",
+          "localPath": "patterns/forms/forms.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -668,5 +703,5 @@ const patternManifest_1519683219692 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519683219692);
+patternBotIncludes(patternManifest_1519741267002);
 }());
