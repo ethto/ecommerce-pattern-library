@@ -11,10 +11,6 @@ label {
   color: var(--color-secondary);
 }
 
-.icon-label-first {
-  color: #fff;
-}
-
 .icon-label {
   color: var(--color-highlight);
 }
@@ -31,7 +27,7 @@ label {
 }
 
 .error-message-highlighted {
-  background-color: var(--color-highlight);
+  background-color: #fff;
   color: #fff;
 }
 

@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1519741267002
+ * @version 1519749762114
  */
-const patternManifest_1519741267002 = {
+const patternManifest_1519749762114 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -654,10 +654,16 @@ const patternManifest_1519741267002 = {
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
-          "name": "email",
-          "namePretty": "Email",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/email.html",
-          "localPath": "patterns/forms/email.html"
+          "name": "check-boxes",
+          "namePretty": "Check boxes",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/check-boxes.html",
+          "localPath": "patterns/forms/check-boxes.html"
+        },
+        {
+          "name": "drop-down",
+          "namePretty": "Drop down",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/drop-down.html",
+          "localPath": "patterns/forms/drop-down.html"
         },
         {
           "name": "numbers",
@@ -703,5 +709,5 @@ const patternManifest_1519741267002 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519741267002);
+patternBotIncludes(patternManifest_1519749762114);
 }());

@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Number fields</title>
+  <title>Drop down options</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link  href="../../common/modules.css" rel="stylesheet">
   <link  href="../../common/grid.css" rel="stylesheet">
@@ -23,38 +23,35 @@
     </div>
 
     <div class="push-1-2">
-      <label for="tel">Phone number</label>
-      <input type="tel" id="tel" required aria-describedby="tel-error">
-      <p class="error-message milli island-1-4 push-0" id="tel-error">
+      <label for="prov">Province</label>
+      <select id="prov" required aria-describedby="prov-error">
+        <option>Ontario</option>
+        <option>British Columbia</option>
+        <option>Alberta</option>
+        <option>Quebec</option>
+        <option>New Brunswick</option>
+        <option>Manitoba</option>
+        <option>Saskatchewan</option>
+        <option>Prince Edward Island</option>
+        <option>Nova Scotia</option>
+        <option>Newfoundland and Labrador</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="prov-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please provide a phone number</span>
+        <span class="icon-label">Please select a province</span>
       </p>
     </div>
 
     <div class="push-1-2">
-      <label for="credit">Credit card number</label>
-      <input id="credit" maxlength="12" required aria-describedby="credit-error">
-      <p class="error-message milli island-1-4 push-0" id="credit-error">
+      <label for="city">City</label>
+      <select id="city" required aria-describedby="city-error">
+        <option>Ottawa</option>
+        <option>Toronto</option>
+        <option>Barrie</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="city-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please provide a credit card number</span>
-      </p>
-    </div>
-
-    <div class="push-1-2">
-      <label for="expiry">Expiry date</label>
-      <input type="date" id="expiry" required aria-describedby="expiry-error">
-      <p class="error-message milli island-1-4 push-0" id="expiry-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please select the expiry date</span>
-      </p>
-    </div>
-
-    <div class="push-1-2">
-      <label for="code">Security code</label>
-      <input id="code" maxlength="3" required aria-describedby="code-error">
-      <p class="error-message milli island-1-4 push-0" id="code-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please enter the 3 digit security code located on the back of your card</span>
+        <span class="icon-label">Please select a province</span>
       </p>
     </div>
 
