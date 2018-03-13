@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1520960196241
+ * @version 1520960374831
  */
-const patternManifest_1520960196241 = {
+const patternManifest_1520960374831 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -545,10 +545,35 @@ const patternManifest_1520960196241 = {
       "bubble-wrap-bag",
       "bubble-wrap-roll",
       "bubble-wrap-sheet",
-      "error",
+      "cart",
       "facebook-logo",
       "insta-logo",
-      "vimeo-logo"
+      "search",
+      "vimeo-logo",
+      "bubble-wrap-bag",
+      "bubble-wrap-roll",
+      "bubble-wrap-sheet",
+      "cart",
+      "insta-logo",
+      "facebook-logo",
+      "search",
+      "vimeo-logo",
+      "bubble-wrap-bag",
+      "cart",
+      "bubble-wrap-sheet",
+      "bubble-wrap-roll",
+      "facebook-logo",
+      "insta-logo",
+      "search",
+      "vimeo-logo",
+      "error",
+      "error",
+      "artboard-6-copy",
+      "artboard-6",
+      "cart",
+      "cart-1",
+      "cart",
+      "cart-1"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -866,5 +891,5 @@ const patternManifest_1520960196241 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520960196241);
+patternBotIncludes(patternManifest_1520960374831);
 }());
