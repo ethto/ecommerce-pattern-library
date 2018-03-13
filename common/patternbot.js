@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1520904080393
+ * @version 1520949911810
  */
-const patternManifest_1520904080393 = {
+const patternManifest_1520949911810 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -678,7 +678,14 @@ const patternManifest_1520904080393 = {
           "localPath": "patterns/footers/main-footer.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/README.md",
+          "localPath": "patterns/footers/README.md"
+        }
+      ],
       "css": [
         {
           "name": "main-footer",
@@ -718,7 +725,14 @@ const patternManifest_1520904080393 = {
           "localPath": "patterns/forms/text.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
+        }
+      ],
       "css": [
         {
           "name": "forms",
@@ -732,9 +746,30 @@ const patternManifest_1520904080393 = {
       "name": "headers",
       "namePretty": "Headers",
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "main-header",
+          "namePretty": "Main header",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/main-header.html",
+          "localPath": "patterns/headers/main-header.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/README.md",
+          "localPath": "patterns/headers/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "main-header",
+          "namePretty": "Main header",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/main-header.css",
+          "localPath": "patterns/headers/main-header.css"
+        }
+      ]
     },
     {
       "name": "sections-navs",
@@ -745,16 +780,25 @@ const patternManifest_1520904080393 = {
           "name": "navs",
           "namePretty": "Navs",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/navs.html",
-          "localPath": "patterns/sections & navs/navs.html"
+          "localPath": "patterns/sections & navs/navs.html",
+          "readme": {}
         },
         {
           "name": "sections",
           "namePretty": "Sections",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/sections.html",
-          "localPath": "patterns/sections & navs/sections.html"
+          "localPath": "patterns/sections & navs/sections.html",
+          "readme": {}
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/README.md",
+          "localPath": "patterns/sections & navs/README.md"
+        }
+      ],
       "css": [
         {
           "name": "navs",
@@ -791,5 +835,5 @@ const patternManifest_1520904080393 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520904080393);
+patternBotIncludes(patternManifest_1520949911810);
 }());
