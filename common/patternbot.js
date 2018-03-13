@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1520949911810
+ * @version 1520957246165
  */
-const patternManifest_1520949911810 = {
+const patternManifest_1520957246165 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -578,10 +578,11 @@ const patternManifest_1520949911810 = {
     "patterns": [
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs"
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/untitled folder"
     ],
     "pages": []
   },
@@ -667,31 +668,31 @@ const patternManifest_1520949911810 = {
       ]
     },
     {
-      "name": "footers",
-      "namePretty": "Footers",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers",
+      "name": "footer",
+      "namePretty": "Footer",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
       "html": [
         {
-          "name": "main-footer",
-          "namePretty": "Main footer",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/main-footer.html",
-          "localPath": "patterns/footers/main-footer.html"
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/README.md",
-          "localPath": "patterns/footers/README.md"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
         }
       ],
       "css": [
         {
-          "name": "main-footer",
-          "namePretty": "Main footer",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/main-footer.css",
-          "localPath": "patterns/footers/main-footer.css"
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
         }
       ]
     },
@@ -743,31 +744,31 @@ const patternManifest_1520949911810 = {
       ]
     },
     {
-      "name": "headers",
-      "namePretty": "Headers",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers",
+      "name": "header",
+      "namePretty": "Header",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
       "html": [
         {
-          "name": "main-header",
-          "namePretty": "Main header",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/main-header.html",
-          "localPath": "patterns/headers/main-header.html"
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
         }
       ],
       "md": [
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/README.md",
-          "localPath": "patterns/headers/README.md"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
         }
       ],
       "css": [
         {
-          "name": "main-header",
-          "namePretty": "Main header",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers/main-header.css",
-          "localPath": "patterns/headers/main-header.css"
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
         }
       ]
     },
@@ -813,6 +814,14 @@ const patternManifest_1520949911810 = {
           "localPath": "patterns/sections & navs/sections.css"
         }
       ]
+    },
+    {
+      "name": "untitled-folder",
+      "namePretty": "Untitled folder",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/untitled folder",
+      "html": [],
+      "md": [],
+      "css": []
     }
   ],
   "config": {
@@ -835,5 +844,5 @@ const patternManifest_1520949911810 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520949911810);
+patternBotIncludes(patternManifest_1520957246165);
 }());

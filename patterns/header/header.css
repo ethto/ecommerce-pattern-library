@@ -1,12 +1,16 @@
-.header{
+.header {
   background-image: url("../../images/bubbl-banner.jpg");
   background-size: cover;
   background-position: center;
-  height: 16em;
+  height: 12em;
+}
+
+.transparency {
+  background-color: rgba(94, 175, 181, 0.7);
 }
 
 .nav {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .header-nav-a {
@@ -14,17 +18,12 @@
   color: #fff;
 }
 
-ul {
+.list-group {
   padding: 0;
   margin: 0;
 }
 
-li {
+.nav-links {
   display: inline-block;
   float: right;
 }
-
-a {
-  text-decoration: none;
-  list-style-type: none;
-  color: #fff;
