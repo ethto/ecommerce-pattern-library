@@ -188,9 +188,9 @@
                 </a>
               </li>
               <li role="presentation">
-                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="sections-navs" href="#sections-navs">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="search-filters" href="#search-filters">
                   <div class="relative">
-                    <span>Sections &amp; navs</span>
+                    <span>Search filters</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-active" /></svg>
                     </i>
@@ -198,9 +198,9 @@
                 </a>
               </li>
               <li role="presentation">
-                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="untitled-folder" href="#untitled-folder">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="sections-navs" href="#sections-navs">
                   <div class="relative">
-                    <span>Untitled folder</span>
+                    <span>Sections &amp; navs</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-active" /></svg>
                     </i>
@@ -1743,6 +1743,107 @@
 
 </section>
 
+        <section class="pattern" id="search-filters" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #5eafb5; font-family: &quot;Roboto Slab&quot;, sans-serif;">Search filters</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="search-filters-filters-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="search-filters/filters" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/search filters/filters.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+      <div class="pattern-desc milli island" style="">
+        <div class="max-length"><ul>
+<li>Filters are useful for user to narrow down the amount of items in their search. Colour, size, bubble shape, and type (roll or sheet).</li>
+</ul>
+</div>
+      </div>
+
+  
+
+    <div class="pattern-details " id="search-filters--filters" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/search filters/filters.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="search-filters-filters-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#search-filters-filters-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="search-filters-filters-code-sample-copy-chunk">&lt;form class="filters" action="#" method="post"&gt;
+
+  &lt;div class="gutter-2">
+    &lt;h6 class="h6 push-1-2 pad-t">Colour&lt;/h6>
+    &lt;div>
+      &lt;input type="checkbox" id="clear">
+      &lt;label class="push-1-4 milli" for="clear">Clear&lt;/label>
+    &lt;/div>
+    &lt;div>
+      &lt;input type="checkbox" id="blue">
+      &lt;label class="push-1-4 milli" for="blue">Blue&lt;/label>
+    &lt;/div>
+    &lt;div>
+      &lt;input type="checkbox" id="green">
+      &lt;label class="push-1-4 milli" for="green">Green&lt;/label>
+    &lt;/div>
+    &lt;div>
+      &lt;input type="checkbox" id="pink">
+      &lt;label class="push-1-4 milli" for="pink">Pink&lt;/label>
+    &lt;/div>
+    &lt;div>
+      &lt;input type="checkbox" id="purple">
+      &lt;label class="push-1-4 milli" for="purple">Purple&lt;/label>
+    &lt;/div>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="sections-navs" role="tabpanel" hidden aria-hidden="true" >
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #5eafb5; font-family: &quot;Roboto Slab&quot;, sans-serif;">Sections &amp; navs</h2>
@@ -1934,40 +2035,6 @@
           </div>
       </div>
     </div>
-
-</section>
-
-        <section class="pattern" id="untitled-folder" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
-    <h2 class="pattern-name exa push-1-4" style="color: #5eafb5; font-family: &quot;Roboto Slab&quot;, sans-serif;">Untitled folder</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="untitled-folder--code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="untitled-folder/" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
-                </i>
-              </a>
-            </li>
-        </ul>
-  </div>
-
-
-  
-
 
 </section>
 

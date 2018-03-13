@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1520957246165
+ * @version 1520960196241
  */
-const patternManifest_1520957246165 = {
+const patternManifest_1520960196241 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -581,8 +581,8 @@ const patternManifest_1520957246165 = {
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/untitled folder"
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs"
     ],
     "pages": []
   },
@@ -773,6 +773,36 @@ const patternManifest_1520957246165 = {
       ]
     },
     {
+      "name": "search-filters",
+      "namePretty": "Search filters",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters",
+      "html": [
+        {
+          "name": "filters",
+          "namePretty": "Filters",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/filters.html",
+          "localPath": "patterns/search filters/filters.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/README.md",
+          "localPath": "patterns/search filters/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "filters",
+          "namePretty": "Filters",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/filters.css",
+          "localPath": "patterns/search filters/filters.css"
+        }
+      ]
+    },
+    {
       "name": "sections-navs",
       "namePretty": "Sections & navs",
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
@@ -814,14 +844,6 @@ const patternManifest_1520957246165 = {
           "localPath": "patterns/sections & navs/sections.css"
         }
       ]
-    },
-    {
-      "name": "untitled-folder",
-      "namePretty": "Untitled folder",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/untitled folder",
-      "html": [],
-      "md": [],
-      "css": []
     }
   ],
   "config": {
@@ -844,5 +866,5 @@ const patternManifest_1520957246165 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520957246165);
+patternBotIncludes(patternManifest_1520960196241);
 }());
