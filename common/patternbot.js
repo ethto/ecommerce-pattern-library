@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1519751401626
+ * @version 1520904080393
  */
-const patternManifest_1519751401625 = {
+const patternManifest_1520904080393 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -503,6 +503,37 @@ const patternManifest_1519751401625 = {
       "attributes": {
         "name": "bubbl",
         "fontUrl": "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:700",
+        "icons": {
+          "icons": {
+            "facebook-logo": {
+              "background-color": "var(--color-secondary)",
+              "backgroundColour": "#505252",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "insta-logo": {
+              "background-color": "var(--color-secondary)",
+              "backgroundColour": "#505252",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "vimeo-logo": {
+              "background-color": "var(--color-secondary)",
+              "backgroundColour": "#505252",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "hidePopOutButton": true,
+            "hideCode": true,
+            "notResizable": true
+          }
+        },
         "backgroundColour": "#fff",
         "interfaceColours": {
           "primary": 0,
@@ -514,26 +545,9 @@ const patternManifest_1519751401625 = {
       "bubble-wrap-bag",
       "bubble-wrap-roll",
       "bubble-wrap-sheet",
-      "cart",
+      "error",
       "facebook-logo",
       "insta-logo",
-      "search",
-      "vimeo-logo",
-      "bubble-wrap-bag",
-      "bubble-wrap-roll",
-      "bubble-wrap-sheet",
-      "cart",
-      "insta-logo",
-      "facebook-logo",
-      "search",
-      "vimeo-logo",
-      "bubble-wrap-bag",
-      "cart",
-      "bubble-wrap-sheet",
-      "bubble-wrap-roll",
-      "facebook-logo",
-      "insta-logo",
-      "search",
       "vimeo-logo"
     ],
     "interfaceColours": {
@@ -564,7 +578,10 @@ const patternManifest_1519751401625 = {
     "patterns": [
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms"
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs"
     ],
     "pages": []
   },
@@ -622,7 +639,8 @@ const patternManifest_1519751401625 = {
           "name": "basic-card",
           "namePretty": "Basic card",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/basic-card.html",
-          "localPath": "patterns/cards/basic-card.html"
+          "localPath": "patterns/cards/basic-card.html",
+          "readme": {}
         },
         {
           "name": "icon-card",
@@ -645,6 +663,28 @@ const patternManifest_1519751401625 = {
           "namePretty": "Cards",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
+        }
+      ]
+    },
+    {
+      "name": "footers",
+      "namePretty": "Footers",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers",
+      "html": [
+        {
+          "name": "main-footer",
+          "namePretty": "Main footer",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/main-footer.html",
+          "localPath": "patterns/footers/main-footer.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "main-footer",
+          "namePretty": "Main footer",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footers/main-footer.css",
+          "localPath": "patterns/footers/main-footer.css"
         }
       ]
     },
@@ -687,6 +727,48 @@ const patternManifest_1519751401625 = {
           "localPath": "patterns/forms/forms.css"
         }
       ]
+    },
+    {
+      "name": "headers",
+      "namePretty": "Headers",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/headers",
+      "html": [],
+      "md": [],
+      "css": []
+    },
+    {
+      "name": "sections-navs",
+      "namePretty": "Sections & navs",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
+      "html": [
+        {
+          "name": "navs",
+          "namePretty": "Navs",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/navs.html",
+          "localPath": "patterns/sections & navs/navs.html"
+        },
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/sections.html",
+          "localPath": "patterns/sections & navs/sections.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "navs",
+          "namePretty": "Navs",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/navs.css",
+          "localPath": "patterns/sections & navs/navs.css"
+        },
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/sections.css",
+          "localPath": "patterns/sections & navs/sections.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -709,5 +791,5 @@ const patternManifest_1519751401625 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519751401625);
+patternBotIncludes(patternManifest_1520904080393);
 }());

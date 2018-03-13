@@ -19,6 +19,14 @@ colors:
     This warm orange-red is perfect for links, important info, errors, and notices as it catches one's attention. It contrasts well with the other colours.
   accent: |
     Our grey accent is used for anything else to add subtlety. Mostly used as a hover colour and the background when highlighting text.
+icons:
+  icons:
+    facebook-logo:
+      background-color: "var(--color-secondary)"
+    insta-logo:
+      background-color: "var(--color-secondary)"
+    vimeo-logo:
+      background-color: "var(--color-secondary)"
 ---
 
 bubbl is a service that provides completely customizable bubble wrap. Colour, size, shapes, textures, and even scents—absolutely anything is possible.

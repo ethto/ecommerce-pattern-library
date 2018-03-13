@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--color-secondary);
+}
+
+.links {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .links {
+    float: left;
+  }
+
+  .icon {
+    float: right;
+  }
+
+}

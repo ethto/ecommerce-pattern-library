@@ -1,0 +1,16 @@
+ol li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-left {
+  float: left;
+}
+
+.btn-right {
+  float: right;
+}
