@@ -27,6 +27,8 @@ icons:
       background-color: "var(--color-secondary)"
     vimeo-logo:
       background-color: "var(--color-secondary)"
+    search:
+      background-color: "var(--color-secondary)"
 ---
 
 bubbl is a service that provides completely customizable bubble wrap. Colour, size, shapes, textures, and even scents—absolutely anything is possible.

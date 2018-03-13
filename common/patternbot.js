@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1520960374831
+ * @version 1520961638378
  */
-const patternManifest_1520960374831 = {
+const patternManifest_1520961638378 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -529,6 +529,14 @@ const patternManifest_1520960374831 = {
                 "opposite": 0
               }
             },
+            "search": {
+              "background-color": "var(--color-secondary)",
+              "backgroundColour": "#505252",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
             "hidePopOutButton": true,
             "hideCode": true,
             "notResizable": true
@@ -542,38 +550,16 @@ const patternManifest_1520960374831 = {
       }
     },
     "icons": [
+      "facebook-logo",
+      "insta-logo",
+      "vimeo-logo",
+      "search",
       "bubble-wrap-bag",
       "bubble-wrap-roll",
       "bubble-wrap-sheet",
-      "cart",
-      "facebook-logo",
-      "insta-logo",
-      "search",
-      "vimeo-logo",
-      "bubble-wrap-bag",
-      "bubble-wrap-roll",
-      "bubble-wrap-sheet",
-      "cart",
-      "insta-logo",
-      "facebook-logo",
-      "search",
-      "vimeo-logo",
-      "bubble-wrap-bag",
-      "cart",
-      "bubble-wrap-sheet",
-      "bubble-wrap-roll",
-      "facebook-logo",
-      "insta-logo",
-      "search",
-      "vimeo-logo",
-      "error",
-      "error",
-      "artboard-6-copy",
-      "artboard-6",
       "cart",
       "cart-1",
-      "cart",
-      "cart-1"
+      "error"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -891,5 +877,5 @@ const patternManifest_1520960374831 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520960374831);
+patternBotIncludes(patternManifest_1520961638378);
 }());
