@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1522165043568
+ * @version 1522167261546
  */
-const patternManifest_1522165043568 = {
+const patternManifest_1522167261546 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -746,7 +746,8 @@ const patternManifest_1522165043568 = {
           "namePretty": "Footer",
           "filename": "footer",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/footer.html",
-          "localPath": "patterns/footer/footer.html"
+          "localPath": "patterns/footer/footer.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -778,28 +779,32 @@ const patternManifest_1522165043568 = {
           "namePretty": "Check boxes",
           "filename": "check-boxes",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/check-boxes.html",
-          "localPath": "patterns/forms/check-boxes.html"
+          "localPath": "patterns/forms/check-boxes.html",
+          "readme": {}
         },
         {
           "name": "drop-down",
           "namePretty": "Drop down",
           "filename": "drop-down",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/drop-down.html",
-          "localPath": "patterns/forms/drop-down.html"
+          "localPath": "patterns/forms/drop-down.html",
+          "readme": {}
         },
         {
           "name": "numbers",
           "namePretty": "Numbers",
           "filename": "numbers",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/numbers.html",
-          "localPath": "patterns/forms/numbers.html"
+          "localPath": "patterns/forms/numbers.html",
+          "readme": {}
         },
         {
           "name": "text",
           "namePretty": "Text",
           "filename": "text",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/text.html",
-          "localPath": "patterns/forms/text.html"
+          "localPath": "patterns/forms/text.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -831,7 +836,8 @@ const patternManifest_1522165043568 = {
           "namePretty": "Header",
           "filename": "header",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/header.html",
-          "localPath": "patterns/header/header.html"
+          "localPath": "patterns/header/header.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -863,10 +869,19 @@ const patternManifest_1522165043568 = {
           "namePretty": "Image grids",
           "filename": "image-grids",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids/image-grids.html",
-          "localPath": "patterns/image grids/image-grids.html"
+          "localPath": "patterns/image grids/image-grids.html",
+          "readme": {}
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids/README.md",
+          "localPath": "patterns/image grids/README.md"
+        }
+      ],
       "css": []
     },
     {
@@ -963,7 +978,15 @@ const patternManifest_1522165043568 = {
           "localPath": "patterns/testimonial/testimonial.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/README.md",
+          "localPath": "patterns/testimonial/README.md"
+        }
+      ],
       "css": []
     }
   ],
@@ -987,5 +1010,5 @@ const patternManifest_1522165043568 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522165043568);
+patternBotIncludes(patternManifest_1522167261546);
 }());

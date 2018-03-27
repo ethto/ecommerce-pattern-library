@@ -6,7 +6,7 @@ html {
   color: #999;
 }
 
-label {
+.label {
   border-color: var(--color-secondary);
   color: var(--color-secondary);
 }
