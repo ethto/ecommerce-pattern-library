@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1522167326485
+ * @version 1522167986915
  */
-const patternManifest_1522167326485 = {
+const patternManifest_1522167986915 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -634,9 +634,9 @@ const patternManifest_1522167326485 = {
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters",
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial"
     ],
     "pages": [
@@ -862,14 +862,14 @@ const patternManifest_1522167326485 = {
     {
       "name": "image-grids",
       "namePretty": "Image grids",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
       "html": [
         {
           "name": "image-grids",
           "namePretty": "Image grids",
           "filename": "image-grids",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids/image-grids.html",
-          "localPath": "patterns/image grids/image-grids.html",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/image-grids.html",
+          "localPath": "patterns/image-grids/image-grids.html",
           "readme": {}
         }
       ],
@@ -878,8 +878,8 @@ const patternManifest_1522167326485 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image grids/README.md",
-          "localPath": "patterns/image grids/README.md"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/README.md",
+          "localPath": "patterns/image-grids/README.md"
         }
       ],
       "css": []
@@ -887,14 +887,14 @@ const patternManifest_1522167326485 = {
     {
       "name": "search-filters",
       "namePretty": "Search filters",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters",
       "html": [
         {
           "name": "filters",
           "namePretty": "Filters",
           "filename": "filters",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/filters.html",
-          "localPath": "patterns/search filters/filters.html",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/filters.html",
+          "localPath": "patterns/search-filters/filters.html",
           "readme": {}
         }
       ],
@@ -903,8 +903,8 @@ const patternManifest_1522167326485 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/README.md",
-          "localPath": "patterns/search filters/README.md"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/README.md",
+          "localPath": "patterns/search-filters/README.md"
         }
       ],
       "css": [
@@ -912,30 +912,30 @@ const patternManifest_1522167326485 = {
           "name": "filters",
           "namePretty": "Filters",
           "filename": "filters",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search filters/filters.css",
-          "localPath": "patterns/search filters/filters.css"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/filters.css",
+          "localPath": "patterns/search-filters/filters.css"
         }
       ]
     },
     {
-      "name": "sections-navs",
-      "namePretty": "Sections & navs",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs",
+      "name": "sections-and-navs",
+      "namePretty": "Sections and navs",
+      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
       "html": [
         {
           "name": "navs",
           "namePretty": "Navs",
           "filename": "navs",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/navs.html",
-          "localPath": "patterns/sections & navs/navs.html",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/navs.html",
+          "localPath": "patterns/sections-and-navs/navs.html",
           "readme": {}
         },
         {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/sections.html",
-          "localPath": "patterns/sections & navs/sections.html",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/sections.html",
+          "localPath": "patterns/sections-and-navs/sections.html",
           "readme": {}
         }
       ],
@@ -944,8 +944,8 @@ const patternManifest_1522167326485 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/README.md",
-          "localPath": "patterns/sections & navs/README.md"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/README.md",
+          "localPath": "patterns/sections-and-navs/README.md"
         }
       ],
       "css": [
@@ -953,15 +953,15 @@ const patternManifest_1522167326485 = {
           "name": "navs",
           "namePretty": "Navs",
           "filename": "navs",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/navs.css",
-          "localPath": "patterns/sections & navs/navs.css"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/navs.css",
+          "localPath": "patterns/sections-and-navs/navs.css"
         },
         {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections & navs/sections.css",
-          "localPath": "patterns/sections & navs/sections.css"
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/sections.css",
+          "localPath": "patterns/sections-and-navs/sections.css"
         }
       ]
     },
@@ -975,7 +975,8 @@ const patternManifest_1522167326485 = {
           "namePretty": "Testimonial",
           "filename": "testimonial",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/testimonial.html",
-          "localPath": "patterns/testimonial/testimonial.html"
+          "localPath": "patterns/testimonial/testimonial.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1010,5 +1011,5 @@ const patternManifest_1522167326485 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522167326485);
+patternBotIncludes(patternManifest_1522167986915);
 }());
