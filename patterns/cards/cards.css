@@ -4,6 +4,11 @@
   max-width: 20em;
 }
 
+.banner {
+  max-height: 25em;
+  overflow:hidden;
+}
+
 .content {
   position: absolute;
   bottom: 0;
