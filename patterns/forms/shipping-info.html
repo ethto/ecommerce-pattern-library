@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Text fields</title>
+  <title>Shipping Information</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link  href="../../common/modules.css" rel="stylesheet">
   <link  href="../../common/grid.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <form class="max-length island" method="post" action="#" novalidate>
+  <form class="island push" method="post" action="#" novalidate>
     <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
       <h3 class="push-0">
         <i class="icon i-32"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
@@ -50,11 +50,44 @@
     </div>
 
     <div class="push-1-2">
-      <label class="label" for="address">Address</label>
-      <input id="address" required aria-describedby="address-error">
-      <p class="error-message milli island-1-4 push-0" id="address-error">
+      <label class="label" for="tel">Phone number</label>
+      <input type="tel" id="tel" required aria-describedby="tel-error">
+      <p class="error-message milli island-1-4 push-0" id="tel-error">
         <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please provide an address</span>
+        <span class="icon-label">Please provide a phone number</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label class="label" for="prov">Province</label>
+      <select id="prov" required aria-describedby="prov-error">
+        <option>Ontario</option>
+        <option>British Columbia</option>
+        <option>Alberta</option>
+        <option>Quebec</option>
+        <option>New Brunswick</option>
+        <option>Manitoba</option>
+        <option>Saskatchewan</option>
+        <option>Prince Edward Island</option>
+        <option>Nova Scotia</option>
+        <option>Newfoundland and Labrador</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="prov-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please select a province</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label class="label" for="city">City</label>
+      <select id="city" required aria-describedby="city-error">
+        <option>Ottawa</option>
+        <option>Toronto</option>
+        <option>Barrie</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="city-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please select a province</span>
       </p>
     </div>
 
@@ -67,8 +100,13 @@
       </p>
     </div>
 
-    <div class="pad-t-1-2">
-      <button class="btn" type="submit">CONTINUE</button>
+    <div class="push-1-2">
+      <label class="label" for="address">Address</label>
+      <input id="address" required aria-describedby="address-error">
+      <p class="error-message milli island-1-4 push-0" id="address-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide an address</span>
+      </p>
     </div>
 
   </form>

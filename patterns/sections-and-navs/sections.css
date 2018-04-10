@@ -2,3 +2,7 @@
 .section-cool {
   background-color: var(--color-accent);
 }
+
+.checkout-product-list {
+  border-top: 3px solid var(--color-primary);
+}

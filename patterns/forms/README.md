@@ -1,10 +1,11 @@
 ---
+shipping-info: |
+  - This set of form fields is to gather each piece of shipping information needed to send out orders. This pattern only appears on the checkout page (cart).
+payment-info: |
+    - This set of form fields is to gather valid payment information.
+radio-buttons: |
+    - Radio buttons are to be used on the checkout page asking if the clients wishes to subscribe to promotional emails from Bubbl.
 check-boxes: |
-  - These check boxes appear in a few different places. The primary spot would be on the product page, when the user wants to narrow down their search to specific product attributes.
-drop-down: |
-  - The drop down menu is used on the checkout page when the user needs to select their country, city, and province. Drop down may also be used to select which type of bubble wrap they desire.
-numbers: |
-  - These form fields on the checkout page are to collect personal information with only numbers, such as phone number, credit card number, expiry dates, and security codes.
-text: |
-  - These form fields on the checkout page are to are to collect any personal information with text. Name, email, address, and postal code would all fit in this category.
+    - Check boxes are located on the product page as way to narrow down search results.
+
 ---

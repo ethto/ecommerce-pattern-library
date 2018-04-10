@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Cart • Bubbl</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header/header"></script>
+
+  <div class="gutter pad-t">
+    <h3 class="gutter-2">Your Cart</h3>
+  </div>
+
+  <div class="checkout-items push">
+    <script type="application/json" data-pattern="image-grids/checkout-image-grid">
+      {
+        "p": "Dinosaur, clear, single sheet.",
+        ".quantity": "2"
+
+      }
+    </script>
+
+    <script type="application/json" data-pattern="image-grids/checkout-image-grid"></script>
+  </div>
+
+  <div class="grid">
+    <div class="gutter unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <h4 class="gutter push-0">Shipping</h4>
+      <script type="application/json" data-pattern="forms/shipping-info"></script>
+    </div>
+    <div class="gutter unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <h4 class="gutter push-0">Payment</h4>
+      <script type="application/json" data-pattern="forms/payment-info"></script>
+
+      <script type="application/json" data-pattern="forms/radio-buttons"></script>
+      <div class="gutter pad-b-2">
+        <a class="btn btn-bold" href="#">CANCEL</a>
+        <a class="btn btn-bold" href="#">CONFIRM</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="application/json" data-pattern="footer/footer"></script>
+
+</body>
+</html>

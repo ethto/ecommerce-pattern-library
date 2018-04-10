@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1522167986915
+ * @version 1523373263128
  */
-const patternManifest_1522167986915 = {
+const patternManifest_1523373263128 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,6 +641,16 @@ const patternManifest_1522167986915 = {
     ],
     "pages": [
       {
+        "name": "bubbl-wrap.html",
+        "namePretty": "Bubbl wrap",
+        "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/bubbl-wrap.html"
+      },
+      {
+        "name": "cart.html",
+        "namePretty": "Cart",
+        "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/cart.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/home.html"
@@ -702,11 +712,19 @@ const patternManifest_1522167986915 = {
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
-          "name": "basic-card",
-          "namePretty": "Basic card",
-          "filename": "basic-card",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/basic-card.html",
-          "localPath": "patterns/cards/basic-card.html",
+          "name": "call-to-action",
+          "namePretty": "Call to action",
+          "filename": "call-to-action",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/call-to-action.html",
+          "localPath": "patterns/cards/call-to-action.html",
+          "readme": {}
+        },
+        {
+          "name": "coupon-card",
+          "namePretty": "Coupon card",
+          "filename": "coupon-card",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/coupon-card.html",
+          "localPath": "patterns/cards/coupon-card.html",
           "readme": {}
         },
         {
@@ -714,7 +732,8 @@ const patternManifest_1522167986915 = {
           "namePretty": "Icon card",
           "filename": "icon-card",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/icon-card.html",
-          "localPath": "patterns/cards/icon-card.html"
+          "localPath": "patterns/cards/icon-card.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -783,27 +802,27 @@ const patternManifest_1522167986915 = {
           "readme": {}
         },
         {
-          "name": "drop-down",
-          "namePretty": "Drop down",
-          "filename": "drop-down",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/drop-down.html",
-          "localPath": "patterns/forms/drop-down.html",
+          "name": "payment-info",
+          "namePretty": "Payment info",
+          "filename": "payment-info",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/payment-info.html",
+          "localPath": "patterns/forms/payment-info.html",
           "readme": {}
         },
         {
-          "name": "numbers",
-          "namePretty": "Numbers",
-          "filename": "numbers",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/numbers.html",
-          "localPath": "patterns/forms/numbers.html",
+          "name": "radio-buttons",
+          "namePretty": "Radio buttons",
+          "filename": "radio-buttons",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
+          "localPath": "patterns/forms/radio-buttons.html",
           "readme": {}
         },
         {
-          "name": "text",
-          "namePretty": "Text",
-          "filename": "text",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/text.html",
-          "localPath": "patterns/forms/text.html",
+          "name": "shipping-info",
+          "namePretty": "Shipping info",
+          "filename": "shipping-info",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/shipping-info.html",
+          "localPath": "patterns/forms/shipping-info.html",
           "readme": {}
         }
       ],
@@ -865,11 +884,35 @@ const patternManifest_1522167986915 = {
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
       "html": [
         {
-          "name": "image-grids",
-          "namePretty": "Image grids",
-          "filename": "image-grids",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/image-grids.html",
-          "localPath": "patterns/image-grids/image-grids.html",
+          "name": "checkout-image-grid",
+          "namePretty": "Checkout image grid",
+          "filename": "checkout-image-grid",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/checkout-image-grid.html",
+          "localPath": "patterns/image-grids/checkout-image-grid.html",
+          "readme": {}
+        },
+        {
+          "name": "details-page-image",
+          "namePretty": "Details page image",
+          "filename": "details-page-image",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/details-page-image.html",
+          "localPath": "patterns/image-grids/details-page-image.html",
+          "readme": {}
+        },
+        {
+          "name": "homepage-image-grids",
+          "namePretty": "Homepage image grids",
+          "filename": "homepage-image-grids",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/homepage-image-grids.html",
+          "localPath": "patterns/image-grids/homepage-image-grids.html",
+          "readme": {}
+        },
+        {
+          "name": "product-image-grid",
+          "namePretty": "Product image grid",
+          "filename": "product-image-grid",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/product-image-grid.html",
+          "localPath": "patterns/image-grids/product-image-grid.html",
           "readme": {}
         }
       ],
@@ -1011,5 +1054,5 @@ const patternManifest_1522167986915 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522167986915);
+patternBotIncludes(patternManifest_1523373263128);
 }());
