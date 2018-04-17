@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1523981815957
+ * @version 1523984270386
  */
-const patternManifest_1523981815957 = {
+const patternManifest_1523984270386 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -636,8 +636,7 @@ const patternManifest_1523981815957 = {
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
       "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial"
+      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs"
     ],
     "pages": [
       {
@@ -716,22 +715,6 @@ const patternManifest_1523981815957 = {
       "namePretty": "Cards",
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
       "html": [
-        {
-          "name": "call-to-action",
-          "namePretty": "Call to action",
-          "filename": "call-to-action",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/call-to-action.html",
-          "localPath": "patterns/cards/call-to-action.html",
-          "readme": {}
-        },
-        {
-          "name": "coupon-card",
-          "namePretty": "Coupon card",
-          "filename": "coupon-card",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/coupon-card.html",
-          "localPath": "patterns/cards/coupon-card.html",
-          "readme": {}
-        },
         {
           "name": "icon-card",
           "namePretty": "Icon card",
@@ -971,6 +954,14 @@ const patternManifest_1523981815957 = {
       "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
       "html": [
         {
+          "name": "call-to-action",
+          "namePretty": "Call to action",
+          "filename": "call-to-action",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/call-to-action.html",
+          "localPath": "patterns/sections-and-navs/call-to-action.html",
+          "readme": {}
+        },
+        {
           "name": "navs",
           "namePretty": "Navs",
           "filename": "navs",
@@ -984,6 +975,14 @@ const patternManifest_1523981815957 = {
           "filename": "sections",
           "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/sections.html",
           "localPath": "patterns/sections-and-navs/sections.html",
+          "readme": {}
+        },
+        {
+          "name": "testimonial",
+          "namePretty": "Testimonial",
+          "filename": "testimonial",
+          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/testimonial.html",
+          "localPath": "patterns/sections-and-navs/testimonial.html",
           "readme": {}
         }
       ],
@@ -1012,31 +1011,6 @@ const patternManifest_1523981815957 = {
           "localPath": "patterns/sections-and-navs/sections.css"
         }
       ]
-    },
-    {
-      "name": "testimonial",
-      "namePretty": "Testimonial",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial",
-      "html": [
-        {
-          "name": "testimonial",
-          "namePretty": "Testimonial",
-          "filename": "testimonial",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/testimonial.html",
-          "localPath": "patterns/testimonial/testimonial.html",
-          "readme": {}
-        }
-      ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/README.md",
-          "localPath": "patterns/testimonial/README.md"
-        }
-      ],
-      "css": []
     }
   ],
   "config": {
@@ -1059,5 +1033,5 @@ const patternManifest_1523981815957 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523981815957);
+patternBotIncludes(patternManifest_1523984270386);
 }());
