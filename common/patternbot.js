@@ -312,7 +312,7 @@ const patternBotIncludes = function (manifest) {
           if (resp.status >= 200 && resp.status <= 299) {
             return resp.text();
           } else {
-            console.group('Cannot locate pattern');
+            console.group('Cannot location pattern');
             console.log(resp.url);
             console.log(`Error ${resp.status}: ${resp.statusText}`);
             console.groupEnd();
@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 1523373263128
+ * /Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library
+ * @version 1523978411893
  */
-const patternManifest_1523373263128 = {
+const patternManifest_1523978411893 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -610,50 +610,55 @@ const patternManifest_1523373263128 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/common/grid.css",
+      "typografier": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/common/type.css",
+      "modulifier": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/common/modules.css",
+      "theme": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/images/logo-256.svg",
-      "size64": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/images/logo-64.svg",
-      "size32": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/images/logo-32.svg",
-      "size16": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/images/logo-16.svg",
+      "sizeLarge": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/images/logo-256.svg",
+      "size64": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/images/logo-64.svg",
+      "size32": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/images/logo-32.svg",
+      "size16": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
-      "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial"
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/footer",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/header",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/search-filters",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs",
+      "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/testimonial"
     ],
     "pages": [
       {
         "name": "bubbl-wrap.html",
         "namePretty": "Bubbl wrap",
-        "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/bubbl-wrap.html"
+        "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/pages/bubbl-wrap.html"
       },
       {
         "name": "cart.html",
         "namePretty": "Cart",
-        "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/cart.html"
+        "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/pages/cart.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-details.html",
+        "namePretty": "Product details",
+        "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/pages/product-details.html"
       }
     ]
   },
@@ -661,13 +666,12 @@ const patternManifest_1523373263128 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "buttons-on-dark",
           "namePretty": "Buttons on dark",
-          "filename": "buttons-on-dark",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons/buttons-on-dark.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons/buttons-on-dark.html",
           "localPath": "patterns/buttons/buttons-on-dark.html",
           "readme": {
             "backgroundColor": "#505252",
@@ -681,8 +685,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "filename": "buttons",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons/buttons.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons/buttons.html",
           "localPath": "patterns/buttons/buttons.html",
           "readme": {}
         }
@@ -691,8 +694,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -700,8 +702,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "filename": "buttons",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -709,29 +710,26 @@ const patternManifest_1523373263128 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
           "name": "call-to-action",
           "namePretty": "Call to action",
-          "filename": "call-to-action",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/call-to-action.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards/call-to-action.html",
           "localPath": "patterns/cards/call-to-action.html",
           "readme": {}
         },
         {
           "name": "coupon-card",
           "namePretty": "Coupon card",
-          "filename": "coupon-card",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/coupon-card.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards/coupon-card.html",
           "localPath": "patterns/cards/coupon-card.html",
           "readme": {}
         },
         {
           "name": "icon-card",
           "namePretty": "Icon card",
-          "filename": "icon-card",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/icon-card.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards/icon-card.html",
           "localPath": "patterns/cards/icon-card.html",
           "readme": {}
         }
@@ -740,8 +738,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -749,8 +746,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "cards",
           "namePretty": "Cards",
-          "filename": "cards",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ]
@@ -758,13 +754,12 @@ const patternManifest_1523373263128 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "filename": "footer",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/footer.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/footer/footer.html",
           "localPath": "patterns/footer/footer.html",
           "readme": {}
         }
@@ -773,8 +768,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -782,8 +776,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "footer",
           "namePretty": "Footer",
-          "filename": "footer",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ]
@@ -791,37 +784,33 @@ const patternManifest_1523373263128 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
           "name": "check-boxes",
           "namePretty": "Check boxes",
-          "filename": "check-boxes",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/check-boxes.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/check-boxes.html",
           "localPath": "patterns/forms/check-boxes.html",
           "readme": {}
         },
         {
           "name": "payment-info",
           "namePretty": "Payment info",
-          "filename": "payment-info",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/payment-info.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/payment-info.html",
           "localPath": "patterns/forms/payment-info.html",
           "readme": {}
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
-          "filename": "radio-buttons",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
           "localPath": "patterns/forms/radio-buttons.html",
           "readme": {}
         },
         {
           "name": "shipping-info",
           "namePretty": "Shipping info",
-          "filename": "shipping-info",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/shipping-info.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/shipping-info.html",
           "localPath": "patterns/forms/shipping-info.html",
           "readme": {}
         }
@@ -830,8 +819,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -839,8 +827,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "forms",
           "namePretty": "Forms",
-          "filename": "forms",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ]
@@ -848,13 +835,12 @@ const patternManifest_1523373263128 = {
     {
       "name": "header",
       "namePretty": "Header",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/header",
       "html": [
         {
           "name": "header",
           "namePretty": "Header",
-          "filename": "header",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/header.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/header/header.html",
           "localPath": "patterns/header/header.html",
           "readme": {}
         }
@@ -863,8 +849,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/header/README.md",
           "localPath": "patterns/header/README.md"
         }
       ],
@@ -872,8 +857,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "header",
           "namePretty": "Header",
-          "filename": "header",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/header.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/header/header.css",
           "localPath": "patterns/header/header.css"
         }
       ]
@@ -881,37 +865,33 @@ const patternManifest_1523373263128 = {
     {
       "name": "image-grids",
       "namePretty": "Image grids",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids",
       "html": [
         {
           "name": "checkout-image-grid",
           "namePretty": "Checkout image grid",
-          "filename": "checkout-image-grid",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/checkout-image-grid.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids/checkout-image-grid.html",
           "localPath": "patterns/image-grids/checkout-image-grid.html",
           "readme": {}
         },
         {
           "name": "details-page-image",
           "namePretty": "Details page image",
-          "filename": "details-page-image",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/details-page-image.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids/details-page-image.html",
           "localPath": "patterns/image-grids/details-page-image.html",
           "readme": {}
         },
         {
           "name": "homepage-image-grids",
           "namePretty": "Homepage image grids",
-          "filename": "homepage-image-grids",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/homepage-image-grids.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids/homepage-image-grids.html",
           "localPath": "patterns/image-grids/homepage-image-grids.html",
           "readme": {}
         },
         {
           "name": "product-image-grid",
           "namePretty": "Product image grid",
-          "filename": "product-image-grid",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/product-image-grid.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids/product-image-grid.html",
           "localPath": "patterns/image-grids/product-image-grid.html",
           "readme": {}
         }
@@ -920,8 +900,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/image-grids/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/image-grids/README.md",
           "localPath": "patterns/image-grids/README.md"
         }
       ],
@@ -930,13 +909,12 @@ const patternManifest_1523373263128 = {
     {
       "name": "search-filters",
       "namePretty": "Search filters",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/search-filters",
       "html": [
         {
           "name": "filters",
           "namePretty": "Filters",
-          "filename": "filters",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/filters.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/search-filters/filters.html",
           "localPath": "patterns/search-filters/filters.html",
           "readme": {}
         }
@@ -945,8 +923,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/search-filters/README.md",
           "localPath": "patterns/search-filters/README.md"
         }
       ],
@@ -954,8 +931,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "filters",
           "namePretty": "Filters",
-          "filename": "filters",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/search-filters/filters.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/search-filters/filters.css",
           "localPath": "patterns/search-filters/filters.css"
         }
       ]
@@ -963,21 +939,19 @@ const patternManifest_1523373263128 = {
     {
       "name": "sections-and-navs",
       "namePretty": "Sections and navs",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs",
       "html": [
         {
           "name": "navs",
           "namePretty": "Navs",
-          "filename": "navs",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/navs.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs/navs.html",
           "localPath": "patterns/sections-and-navs/navs.html",
           "readme": {}
         },
         {
           "name": "sections",
           "namePretty": "Sections",
-          "filename": "sections",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/sections.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs/sections.html",
           "localPath": "patterns/sections-and-navs/sections.html",
           "readme": {}
         }
@@ -986,8 +960,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs/README.md",
           "localPath": "patterns/sections-and-navs/README.md"
         }
       ],
@@ -995,15 +968,13 @@ const patternManifest_1523373263128 = {
         {
           "name": "navs",
           "namePretty": "Navs",
-          "filename": "navs",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/navs.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs/navs.css",
           "localPath": "patterns/sections-and-navs/navs.css"
         },
         {
           "name": "sections",
           "namePretty": "Sections",
-          "filename": "sections",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/sections-and-navs/sections.css",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/sections-and-navs/sections.css",
           "localPath": "patterns/sections-and-navs/sections.css"
         }
       ]
@@ -1011,13 +982,12 @@ const patternManifest_1523373263128 = {
     {
       "name": "testimonial",
       "namePretty": "Testimonial",
-      "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial",
+      "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/testimonial",
       "html": [
         {
           "name": "testimonial",
           "namePretty": "Testimonial",
-          "filename": "testimonial",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/testimonial.html",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/testimonial/testimonial.html",
           "localPath": "patterns/testimonial/testimonial.html",
           "readme": {}
         }
@@ -1026,8 +996,7 @@ const patternManifest_1523373263128 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/estherjohnson/Documents/Algonquin/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/testimonial/README.md",
+          "path": "/Users/alexandramines/Library/Mobile Documents/com~apple~CloudDocs/Semester 4/Web Dev 4/Esther/ecommerce-pattern-library/patterns/testimonial/README.md",
           "localPath": "patterns/testimonial/README.md"
         }
       ],
@@ -1054,5 +1023,5 @@ const patternManifest_1523373263128 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523373263128);
+patternBotIncludes(patternManifest_1523978411893);
 }());
